@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Raleway:wght@400;500;900&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Raleway:wght@400;500;900&family=Rubik&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -66,3 +69,156 @@ h1{
     font-family: 'Fraunces', serif;
     letter-spacing: 10px;
 }
+
+
+
+
+/*Jairo*/
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px;
+}
+
+.main img{
+    width: 100%;
+    height: 100%;
+}
+
+.white-card{
+    padding: 180px 150px;
+}
+
+.white-card h2{
+    color: hsl(212, 27%, 19%);
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 42px;
+    text-align: left;
+}
+
+.white-card p{
+    font-size: 16px;
+    padding: 40px 0px;
+    font-family: Barlow;
+    color: hsl(232, 10%, 55%)
+}
+
+.white-card a{
+    color: hsl(212, 27%, 19%);
+    font-family: Fraunces;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.white-card .yellow-border{
+    background: linear-gradient(0deg, hsl(50, 97%, 73%) 6px, transparent 7px) 0 1.2em
+}
+
+.white-card .red-border{
+    background: linear-gradient(0deg, hsl(7, 84%, 70%) 6px, transparent 7px) 0 1.2em
+}
+
+.green-card, .blue-card{
+    position: relative;
+
+}
+.green-card div, .blue-card div{
+    position: relative;
+    text-align: center;
+    padding: 400px 200px 100px 200px;
+}
+
+.green-card img, .blue-card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.green-card h2{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: hsl(167, 40%, 24%)
+}
+
+.green-card p{
+    color: hsl(167, 40%, 24%)
+}
+
+.blue-card h2{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: hsl(198, 62%, 26%);
+}
+
+.blue-card p{
+    color: hsl(198, 62%, 26%);
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.testimonials h2{
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 20px;
+    padding-bottom: 80px;
+    color: hsl(210, 4%, 67%)
+}
+
+.individual-testimonials{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+}
+
+.individual-testimonials img{
+    border-radius: 50%;
+    width: 60px;
+    padding: 10px;
+}
+
+.individual-testimonials div{
+    text-align: center;
+    margin:  auto;
+}
+
+.individual-testimonials .cite{
+    text-align: center;
+    margin:  auto;
+    width: 320px;
+    margin: 20px;
+    font-size: 16px;
+    font-family: Barlow;
+    color: hsl(232, 10%, 55%)
+}
+
+.individual-testimonials .name{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 16px;
+    color: hsl(212, 27%, 19%);
+    padding-bottom: 10px;
+}
+
+.individual-testimonials .role{
+    font-size: 14px;
+    font-family: Barlow;
+    color: hsl(210, 4%, 67%)
+}
+
