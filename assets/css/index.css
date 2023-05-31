@@ -16,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4ABFFD; 
+    background-color: #3DBFFF; 
     height: 100px;
     width: 100%;
     font-family: 'Barlow', sans-serif;
@@ -98,7 +98,8 @@ h1{
     font-size: 16px;
     padding: 40px 0px;
     font-family: Barlow;
-    color: hsl(232, 10%, 55%)
+    color: hsl(232, 10%, 55%);
+    line-height: 1.5;
 }
 
 .white-card a{
@@ -146,7 +147,8 @@ h1{
 }
 
 .green-card p{
-    color: hsl(167, 40%, 24%)
+    color: hsl(167, 40%, 24%);
+    line-height: 1.5;
 }
 
 .blue-card h2{
@@ -159,6 +161,7 @@ h1{
 
 .blue-card p{
     color: hsl(198, 62%, 26%);
+    line-height: 1.5;
 }
 
 .testimonials{
@@ -202,7 +205,8 @@ h1{
     margin: 20px;
     font-size: 16px;
     font-family: Barlow;
-    color: hsl(232, 10%, 55%)
+    color: hsl(232, 10%, 55%);
+    line-height: 1.5;
 }
 
 .individual-testimonials .name{
