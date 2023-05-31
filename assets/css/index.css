@@ -70,9 +70,6 @@ h1{
     letter-spacing: 10px;
 }
 
-
-
-
 /*Jairo*/
 .main{
     display: grid;
@@ -221,4 +218,5 @@ h1{
     font-family: Barlow;
     color: hsl(210, 4%, 67%)
 }
+
 
